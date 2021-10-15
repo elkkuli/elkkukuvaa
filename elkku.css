@@ -1,1 +1,15 @@
+body {
+    background-color: lightsalmon;
+}
+p {
+    color: #5C4DE8;
+    font-size: 30px;
+    text-align: center;
+}
 
+ul {
+    color: blue;
+}
+i {
+    color: red;
+}
