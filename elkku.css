@@ -29,14 +29,23 @@ p {
     text-align: center;
 }
 .pääkuva {
-    padding: 20px;
+    padding: 10px;
+
 }
 .työkokemus {
-    width: 400px;
-    margin: 100px;
+    width: 300px;
+   
 }
 .työkokemus p {
     color: black;
     text-align: center;
 
+}
+
+.koulutus {
+    width: 400px;
+}
+
+.yhteystiedot {
+    width: 200px;
 }
