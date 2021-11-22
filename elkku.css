@@ -26,7 +26,6 @@ ul {
 li {
     display: inline;
     letter-spacing: 3px;
-    
   }
 
 a {
@@ -35,9 +34,11 @@ a {
     color: darkgray;
 }
 
-.teksti {
+.teksti p {
     text-align: center;
-    font-size: 25px;
+    font-size: 50px;
+    color: darkgray;
+    text-shadow: white;
 }
 
 iframe {
@@ -72,4 +73,8 @@ p {
 .dropdown-menu {
     border: none;
     background-color: #DDECFA;
+}
+
+.ikonit {
+    display: inline;
 }
