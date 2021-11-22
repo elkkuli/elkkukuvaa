@@ -19,7 +19,7 @@ body {
 
 ul {
     list-style-type: none;
-    margin: 0;
+    margin: 20px;
     padding: 100px;
   }
   
@@ -36,9 +36,10 @@ a {
 
 .teksti p {
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     color: darkgray;
-    text-shadow: white;
+    letter-spacing: 4px;
+    text-shadow: 2px 2px white ;
 }
 
 iframe {
