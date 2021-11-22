@@ -47,7 +47,10 @@ iframe {
 }
 
 p {
+    color: darkgray;
+    font-size: 15px;
     text-align: center;
+    letter-spacing: 1px;
 }
 .pääkuva {
     padding: 10px;
@@ -60,7 +63,6 @@ p {
 .työkokemus p {
     color: black;
     text-align: center;
-
 }
 
 .koulutus {
@@ -77,4 +79,10 @@ p {
 
 .ikonit {
     display: inline;
+}
+
+h4 {
+    margin-top: 30px;
+    text-align: center;
+    letter-spacing: 3px;
 }
