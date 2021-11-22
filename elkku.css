@@ -1,23 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-color: #DDECFA;
+    justify-content: space-between;
+    font-family: "Poppins", sans-serif;
 }
-img {
-    margin: 20px;
+
+* {
+    box-sizing:border-box;
 }
-nav ul {
+
+.center {
+    display: block;
+    margin: 50px 20px 20px 50px;
+  }
+
+ul {
     list-style-type: none;
     margin: 0;
     padding: 100px;
   }
   
-nav li {
+li {
     display: inline;
+    letter-spacing: 3px;
+    
   }
+
+a {
+    text-decoration: none;
+    gap: 100em;
+    color: darkgray;
+}
 
 .teksti {
     text-align: center;
     font-size: 25px;
-    font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 iframe {
@@ -48,4 +68,8 @@ p {
 
 .yhteystiedot {
     width: 200px;
+}
+.dropdown-menu {
+    border: none;
+    background-color: #DDECFA;
 }
