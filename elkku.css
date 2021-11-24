@@ -1,15 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Nanum+Pen+Script&family=Poppins:wght@100;200;300;400;500;600;700&family=Press+Start+2P&display=swap');
+
+@media only screen and (max-width: 768px) {
+    [class*="col-"] {
+        width:100%;
+    }
+
+    .iframe {
+      width: 100%;
+    }
+
+    .ikonit img {
+        width: 13%;
+    }
+
+li {
+    font-size: 20px;
+}
+
+.teksti {
+    font-size: 10px;
+}
+  }
+
+  * {
+    box-sizing:border-box;
+}
+
 html {
     scroll-behavior: smooth;
 }
+
 body {
     background-color: #DDECFA;
     justify-content: space-between;
     font-family: "Poppins", sans-serif;
-}
-
-* {
-    box-sizing:border-box;
 }
 
 .center {
@@ -42,11 +66,6 @@ a {
     text-shadow: 2px 2px white ;
 }
 
-iframe {
-    display: block;
-    margin: 0 auto;
-}
-
 p {
     color: darkgray;
     font-size: 15px;
@@ -73,18 +92,41 @@ p {
 .yhteystiedot {
     width: 200px;
 }
+
 .dropdown-menu {
     border: none;
     background-color: #DDECFA;
 }
 
 .ikonit {
-     width: 70%;
+display: block;
+text-align: center;
 }
-
 
 h4 {
     margin-top: 30px;
     text-align: center;
     letter-spacing: 3px;
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+}
+
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-family: 'Caveat Brush', cursive;
+    color: white;
+    font-size: 100px;
+    margin: 10%;
+    text-align: center;
 }
