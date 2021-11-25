@@ -20,7 +20,21 @@ li {
 .teksti p {
     font-size: 10px;
 }
-  }
+
+.timeline container {
+    width: 50%;
+}
+
+.pääkuva img {
+    width: 60%;
+   margin-left: 80px;
+}
+
+}
+
+
+
+
 
   * {
     box-sizing:border-box;
@@ -73,7 +87,7 @@ p {
     letter-spacing: 1px;
 }
 .pääkuva {
-    padding: 10px;
+    width: 100%;
 
 }
 .työkokemus {
@@ -131,6 +145,95 @@ h1 {
     text-align: center;
 }
 
-h1:hover {
+
+a {
     color: white;
+    text-decoration: none;
+  }
+  h1 a:hover {
+    color: white;
+  }
+
+
+
+h5 {
+    text-align: center;
+    color: darkgray;
 }
+
+h3 {
+    text-align: center;
+    color: darkgray;
+}
+
+.yhteystiedot {
+    width: 100%;
+    text-align: center;
+}
+
+.yhteystiedot p {
+    color: darkgrey;
+}
+
+
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+.container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+  }
+
+  .left {
+    left: 0;
+  }
+  
+  .content {
+    padding: 20px 30px;
+    background-color: #F0F9FD;
+    position:relative;
+    border-radius: 6px;
+  }
+  
+    .container {
+    width: 80%;
+    padding-left: 70px;
+    padding-right: 25px;
+    }
+
+    
+
+    input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: none;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+      
+      input[type=submit] {
+        background-color: lightskyblue;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      input[type=submit]:hover {
+        background-color: lightblue;
+      }
+      
+      .yhteystiedot {
+        border-radius: 5px;
+        background-color: #F0F9FD;
+        padding: 20px;
+      }
