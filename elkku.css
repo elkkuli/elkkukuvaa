@@ -17,7 +17,7 @@ li {
     font-size: 20px;
 }
 
-.teksti {
+.teksti p {
     font-size: 10px;
 }
   }
@@ -129,4 +129,8 @@ h1 {
     font-size: 100px;
     margin: 10%;
     text-align: center;
+}
+
+h1:hover {
+    color: white;
 }
