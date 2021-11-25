@@ -21,13 +21,28 @@ li {
     font-size: 10px;
 }
 
-.timeline container {
-    width: 50%;
+.content {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+}
+
+.container p {
+    font-size: 80%;
+}
+
+.container h3 {
+    font-size: 80%;
 }
 
 .pääkuva img {
+    display: block;
+    margin: 0 auto;
     width: 60%;
-   margin-left: 80px;
+
+
 }
 
 }
@@ -113,8 +128,8 @@ p {
 }
 
 .ikonit {
-display: block;
-text-align: center;
+    display: block;
+    text-align: center;
 }
 
 h4 {
@@ -163,52 +178,33 @@ h5 {
 
 h3 {
     text-align: center;
-    color: darkgray;
+    color: black;
 }
-
-.yhteystiedot {
-    width: 100%;
-    text-align: center;
-}
-
-.yhteystiedot p {
-    color: darkgrey;
-}
-
 
 .timeline {
+    display: block;
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
   }
   
 .container {
-    padding: 10px 40px;
     position: relative;
     background-color: inherit;
-    width: 50%;
-  }
-
-  .left {
-    left: 0;
+    width: 80%;
+    padding-left: 70px;
+    padding-right: 25px;
   }
   
-  .content {
+.content {
     padding: 20px 30px;
     background-color: #F0F9FD;
     position:relative;
     border-radius: 6px;
   }
-  
-    .container {
-    width: 80%;
-    padding-left: 70px;
-    padding-right: 25px;
-    }
+     
 
-    
-
-    input[type=text], select, textarea {
+input[type=text], select, textarea {
         width: 100%;
         padding: 12px;
         border: none;
@@ -236,4 +232,10 @@ h3 {
         border-radius: 5px;
         background-color: #F0F9FD;
         padding: 20px;
-      }
+        width: 100%;
+        text-align: center;
+    }
+    
+    .yhteystiedot p {
+        color: darkgrey;
+    }
