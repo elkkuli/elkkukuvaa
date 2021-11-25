@@ -34,7 +34,7 @@ li {
 }
 
 .container h3 {
-    font-size: 80%;
+    font-size: 60%;
 }
 
 .pääkuva img {
@@ -90,13 +90,13 @@ a {
 .teksti p {
     text-align: center;
     font-size: 40px;
-    color: darkgray;
+    color: white;
     letter-spacing: 4px;
-    text-shadow: 2px 2px white ;
+    text-shadow: 2px 2px #9AA19D ;
 }
 
 p {
-    color: darkgray;
+    color: #9AA19D;
     font-size: 15px;
     text-align: center;
     letter-spacing: 1px;
@@ -178,7 +178,7 @@ h5 {
 
 h3 {
     text-align: center;
-    color: black;
+    color:#515452;
 }
 
 .timeline {
@@ -237,5 +237,5 @@ input[type=text], select, textarea {
     }
     
     .yhteystiedot p {
-        color: darkgrey;
+        color: #515452;
     }
