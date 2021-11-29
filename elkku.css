@@ -59,6 +59,8 @@ li {
     text-align: center;
 }
 
+
+
 }
 
 
@@ -287,7 +289,3 @@ input[type=text], select, textarea {
     padding-right:30px;
   }
 
-.takasivu {
-    margin: 30px;
-    text-align: center;
-}
