@@ -274,3 +274,8 @@ input[type=text], select, textarea {
     justify-content: center;
 
 }
+
+.navbar-nav > li{
+    padding-left:30px;
+    padding-right:30px;
+  }
