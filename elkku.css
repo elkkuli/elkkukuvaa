@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Caveat+Brush&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
+@font-face {
+    font-family: Friendlyschoolmates;
+    src: url(Friendly\ Schoolmates\ \(Regular\).otf);
+}
+
 @media only screen and (max-width: 768px) {
     [class*="col-"] {
         width:100%;
@@ -157,12 +162,14 @@ h4 {
 }
 
 h1 {
-    font-family: 'Caveat Brush', cursive;
+    font-family: 'Friendlyschoolmates', sans-serif;
     color: white;
     font-size: 100px;
     margin: 10%;
     text-align: center;
+    text-shadow: 1px 1px darkgray;
 }
+
 
 
 a {
