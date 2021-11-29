@@ -24,7 +24,9 @@ li {
 }
 
 .teksti {
-    font-size: 5px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 70%;
 }
 
 .content {
@@ -95,8 +97,8 @@ a {
 .teksti p {
     font-family: "Poppins", sans-serif;
     font-weight: bold;
+    font-size: 200%;
     text-align: center;
-    font-size: 40px;
     color: white;
     letter-spacing: 10px;
     text-shadow: 2px 2px #9AA19D ;
