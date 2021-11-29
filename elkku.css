@@ -51,6 +51,10 @@ li {
     width: 60%;
 }
 
+.timeline {
+    width: 80%;
+}
+
 .kuvateksti p, h4 {
     text-align: center;
 }
